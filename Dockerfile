@@ -1,7 +1,7 @@
 # Alpine Linux with OpenJDK JRE
 FROM openjdk:8-jre-alpine
 
-EXPOSE 8080
+EXPOSE 8080 8090
 
 # copy jar into image
 COPY target/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar /usr/bin/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar
